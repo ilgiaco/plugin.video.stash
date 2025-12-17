@@ -66,6 +66,7 @@ query findScenes($scene_filter: SceneFilterType, $filter: FindFilterType!) {
         audio_codec
         width
         height
+        path
       }
       studio {
         name
@@ -124,6 +125,7 @@ query findScene($id: ID) {
       audio_codec
       width
       height
+      path
     }
     studio {
       name
@@ -155,6 +157,7 @@ query findScene($id: ID) {
           audio_codec
           width
           height
+          path
         }
         studio {
           name
@@ -307,6 +310,7 @@ query findSceneMarkers($markers_filter: SceneMarkerFilterType, $filter: FindFilt
           audio_codec
           width
           height
+          path
         }
         studio {
           name
