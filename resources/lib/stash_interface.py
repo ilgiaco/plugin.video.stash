@@ -296,6 +296,8 @@ query findSceneMarkers($markers_filter: SceneMarkerFilterType, $filter: FindFilt
         rating100
         date
         created_at
+        resume_time
+        last_played_at
         paths {
           screenshot
         }
@@ -308,6 +310,7 @@ query findSceneMarkers($markers_filter: SceneMarkerFilterType, $filter: FindFilt
         }
         studio {
           name
+          image_path
         }
         performers {
           name
